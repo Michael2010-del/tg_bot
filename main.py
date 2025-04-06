@@ -5,7 +5,7 @@ import os
 import random
 import requests
 
-bot = telebot.TeleBot("7941249751:AAFB7ktTvPZOlg-nVBw0U7pjxNWM0TrzMZQ")
+bot = telebot.TeleBot("")
 
 bot.set_my_commands([
     BotCommand("start", "Запуск бота"),
